@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smartcityapp-a6a76",
+  "private_key_id": "b9d9dcf769ee03bad8ba6e5784d71c705aa53399",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2Y9sEwkUdjl70\n8nV5XXIBucRqR131ior0Yu6BODVQEMPHW5Pr129XJDFyqDpbwBrTsfTjM2XXPU+J\ny3OTi8ZlAVdLGyG3E0bYo4Sy1HZsaCIkeBcyE4iEc3fV4O+B8XzGS8YxfZC2fsvD\nEIzHjdQ2wKhoQPIDxVlnN2B0jIP9J8ypac6D1B0g13KQ2tFbsBdlq7Fi8q2vK2Gx\nDs5usuamE0T/ShSFOds0MsZ+8I08YpO6KBpT4TLgVta6v1oQMynO/RvKl9DiX4et\n5+TmDhcHhOSiXSHLf/wzDa0kACcSK12vU/MwhUyCylUvlKUWghppCmRso7iQm+7j\ne7lqOzDhAgMBAAECggEAEQ5Abm7+SJfGMHC15I4E+b1V7TxUQIBeoyDXPdU0QxL2\nQ9+/8ud3/XWgfCDYKDlMKOy0wkRNqzWMCQ4x9iO1fz+DWr4kRnryfpK394Mfud55\nBuEGBkRGWWB03dbFfujGqsJuO7WKwU4VHt4e1BBivmYAuZMNLqYXSKwohG2ZcCRO\neeqz6THDofydywr//N/liNNFQQCoYrAc7uPGk8mJvRdDyBVTxlI+3WZWpjkZffio\nprrEEE6iwSCvpYINDs5q9iS2Zv9pg6CymeoTCH530sJ4M/Vy+10vCUQpDPcbkL8A\n8leaRDprWTe0ZRXFlQwifxsI51ahViwYW2KefdTfmQKBgQDxRWZEkD+bhhbrYoeg\nCLwqtbQifD2Tfd6/xtcbYeWROXfLBfKW/xb6bQgax8JuOl/L8COD57oZBAxhLrhh\nx7k9y9kA0H+5Y0c0D5tgd0nO5RwQX8xiiPOG6kMWaMyCvNx0QCgcyves3I4tAo8o\ni/j0kZ2oYfUwj7cFiY4n6+5ZfQKBgQDBhkJpuoh2ViGNhg4PA3cnvmhMM2I7Mu2z\nUBdDyZtfjG//QQn3o2rn+kQrqSe97TkUNzwBwLDniPqfD28QJBKrzlrTKXirE1B1\nbZsyeRryDbhYAxYgs3j0a27dcjLOIdzzHGXatM7Tm6oYpTwDTiqC66QftxLW600G\n8pW/bH1yNQKBgBvrjAojJzk4Ky7SGB/M4vmOTWowNm/7AOvwdrQUgBxuKg60gX43\nxtD0DRwMQdO/rZZME9AP4NlEPqqAXZXzJtyf2lzdw+oQMw0zQSfIpiHrIXRDocNF\nVekm8tyFBCWc9WX+hqXOVxsJ6uoKgcaPbB/hOf1iWJ1mBCf/4xN7mfmBAoGAfisx\nC0tQgo4e6+y1J7ajraamyt9JML1AWYJi2JANGxstPWZCwE+reDgiz7BFt758UyC7\nn4zoCNu2QZNHXmeWQKqVbkwAXtCFyTk/UIXCOoMVZ1QDzigUOI3+RqOYWemb6mfe\nQ9tTaIR5Pf4kBSel8Zr9cqvhvXrEyj3HwXhSxO0CgYEAqjAeCECvB+9Og3QcXYiO\njmv79UHkpf52i3wz3Hao7fGLG8Sy25zi8iZUSnjD5dz0hIeEGk1UBfn+A1UgATuE\naxVaZqh/1E/IYRSMg/3fjsYJMxRHEWHi5zlyxjaUq6o8OfbxHBj8o59N1VFVzv4F\nRg3pb/49AqS62AeYQCC6mfo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "smartcityapp-a6a76@appspot.gserviceaccount.com",
+  "client_id": "108191928799716365756",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/smartcityapp-a6a76%40appspot.gserviceaccount.com"
+}

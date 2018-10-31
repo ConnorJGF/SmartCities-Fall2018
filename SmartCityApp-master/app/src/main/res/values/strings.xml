@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Smart City App</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="prompt">Severity</string>
+    <string name="pin_for_center">Pin for center</string>
+    <string name="search_bar">Search Bar</string>
+    <string name="refresh_button">Refresh Button</string>
+    <string name="camera_button">Camera Button</string>
+    <string name="send">SEND</string>
+    <string name="description">Description</string>
+    <string name="other">Other</string>
+    <string name="damage">Damage</string>
+    <string name="traffic_light">TrafficLight</string>
+    <string name="trip_hazard">TripHazard</string>
+    <string name="title_home">Home</string>
+    <string name="new_submission">NewSubmission</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="kind">Kind</string>
+    <string-array name="type">
+
+        <item>pothole</item>
+
+        <item>traffic_light</item>
+
+        <item>trip_hazard</item>
+
+        <item>other</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>
