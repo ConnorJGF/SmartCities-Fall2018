@@ -1,1 +1,0 @@
-# SmartCities-Fall2018
