@@ -81,18 +81,11 @@ public class MapsActivity0 extends FragmentActivity implements OnMapReadyCallbac
         mapFragment.getMapAsync(this);  //implement maps fragment
         autoSelect = "Purdue Memorial Union, Grant Street, West Lafayette, IN";
         spinner = findViewById(R.id.simplespinner);  //initialize spinner
-        // edtAddress = (EditText) findViewById(R.id.btn_place);       //initialize address bar
+        // edtAddress = (EditText) findViewById(R.id.btn_place); //initialize address bar
         search = findViewById(R.id.search);        //initialize search bar
         send = findViewById(R.id.send);
 
-
         refresh = findViewById(R.id.refresh);
-
-
-
-
-
-
 
         // Create an ArrayAdapter using the string array and a default spinner layout
 //        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
@@ -241,7 +234,7 @@ public class MapsActivity0 extends FragmentActivity implements OnMapReadyCallbac
             DatabaseReference databaseReference = database.getReference();
 
             //make a new pothole object to store all the info of pothole to send to the server
-            Damage damage = new Damage(Double.toString(lat), Double.toString(lng), encodedImage, type,timeStamp);
+            Damage damage = new Damage(Double.toString(lat), Double.toString(lng), encodedImage, type,timeStamp, null);
 
             //get the key from the database to append the new pothole information in the server
             String key = databaseReference.push().getKey();

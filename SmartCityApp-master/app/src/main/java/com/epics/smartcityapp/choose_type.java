@@ -77,9 +77,6 @@ import java.util.Map;
 public class choose_type extends AppCompatActivity {
 
 
-
-
-
     public static String KIND;
     ListView listView;
     String Other;
