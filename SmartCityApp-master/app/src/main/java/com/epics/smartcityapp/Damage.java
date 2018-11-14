@@ -10,12 +10,18 @@ public class Damage {
     String encodedImage;
     String type;
     String timeStamp;
+    String description;
+    //String status;
 
-    public Damage(String latitude, String longitude, String encodedImage, String type, String timeStamp) {
+    public Damage(String latitude, String longitude, String encodedImage, String type, String timeStamp, String description) {
         this.latitude = latitude;
         this.longitude = longitude;
         this.encodedImage = encodedImage;
         this.type = type;
         this.timeStamp = timeStamp;
+        this.description = description;
+        //this.status = status;
     }
+
+
 }

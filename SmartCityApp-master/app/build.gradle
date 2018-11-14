@@ -36,6 +36,9 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:11.8.0'
     implementation 'com.firebase:geofire-android:2.1.1'
     implementation 'com.android.support:design:26.1.0'
+    //for place picker
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.android.gms:play-services:12.0.1'
 }
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'

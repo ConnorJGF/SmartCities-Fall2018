@@ -240,7 +240,7 @@ public class MapsActivity3 extends FragmentActivity implements OnMapReadyCallbac
             DatabaseReference databaseReference = database.getReference();
 
             //make a new pothole object to store all the info of pothole to send to the server
-            Damage damage = new Damage(Double.toString(lat), Double.toString(lng), encodedImage, type,timeStamp);
+            Damage damage = new Damage(Double.toString(lat), Double.toString(lng), encodedImage, type,timeStamp, null);
 
             //get the key from the database to append the new pothole information in the server
             String key = databaseReference.push().getKey();
