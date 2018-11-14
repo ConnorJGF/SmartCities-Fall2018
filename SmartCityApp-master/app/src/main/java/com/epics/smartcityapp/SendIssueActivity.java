@@ -49,10 +49,7 @@ public class SendIssueActivity extends AppCompatActivity {
         issueSelector.setAdapter(new ArrayAdapter<String>(SendIssueActivity.this,
                 android.R.layout.simple_spinner_item, issueList));
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 118fc9beb173a00af83661cfce9e04291dc665a2
+        
         imageSelector = findViewById(R.id.imageSelector);
         imageSelector.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,24 +68,17 @@ public class SendIssueActivity extends AppCompatActivity {
 
     void sendToFirebase(View view){
 
-<<<<<<< HEAD
 
-=======
-        if(imageSelected)
->>>>>>> 118fc9beb173a00af83661cfce9e04291dc665a2
         {
             FirebaseDatabase database = FirebaseDatabase.getInstance();
             DatabaseReference databaseReference = database.getReference("reports");
 
             String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
             //make a new pothole object to store all the info of pothole to send to the server
-<<<<<<< HEAD
 
             if (imageSelected==false){
                 encodedImage="no image";
             }
-=======
->>>>>>> 118fc9beb173a00af83661cfce9e04291dc665a2
             Damage damage = new Damage(""+k.getDoubleExtra("lat", 0),
                     ""+k.getDoubleExtra("lng", 0), encodedImage,
                     issueSelector.getSelectedItem().toString(), timeStamp, ((EditText)findViewById(R.id.desc)).getText().toString());
@@ -107,14 +97,7 @@ public class SendIssueActivity extends AppCompatActivity {
             startActivity(intent);
             finishAndRemoveTask();
         }
-<<<<<<< HEAD
 
-=======
-        else
-        {
-            Toast.makeText(this, "Image not selected!", Toast.LENGTH_LONG).show();
-        }
->>>>>>> 118fc9beb173a00af83661cfce9e04291dc665a2
     }
 
     String encodedImage = null;
